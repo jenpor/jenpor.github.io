@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6f7ff; /* Light blue background */
+    background-color: #ede7f6; /* Light purplish-blue background */
     color: #333;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@ body {
 
 h1 {
     margin-bottom: 40px;
-    color: #00509e; /* Deep blue color */
+    color: #512da8; /* Deep purplish-blue */
 }
 
 button {
@@ -37,26 +37,26 @@ button {
     text-align: center;
     border: none;
     border-radius: 5px;
-    background-color: #4ab2f2; /* Slightly darker blue */
+    background-color: #7e57c2; /* Medium purplish-blue */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #00509e; /* Deep blue */
+    background-color: #673ab7; /* Slightly darker purplish-blue */
 }
 
 .exit-btn {
     font-size: 14px;
-    background-color: #00509e; /* Deep blue */
+    background-color: #512da8; /* Deep purplish-blue */
     width: 100%;
     height: 8%;
     vertical-align: bottom;
 }
 
 .exit-btn:hover {
-    background-color: #003d7a; /* Even darker blue */
+    background-color: #311b92; /* Even darker purplish-blue */
 }
 
 .hidden {
@@ -69,7 +69,7 @@ button:hover {
     margin: 20px auto;
     padding: 15px;
     font-size: 40px;
-    color: #4ab2f2; /* Medium blue */
+    color: #7e57c2; /* Medium purplish-blue */
     text-align: center;
     vertical-align: middle;
     height: 70%;
@@ -81,7 +81,7 @@ button:hover {
 #prev-btn,
 #next-btn {
     font-size: 14px;
-    background-color: #00509e; /* Deep blue */
+    background-color: #512da8; /* Deep purplish-blue */
     width: 40%;
     height: 10%;
     display: inline-block;
@@ -89,7 +89,7 @@ button:hover {
 
 #prev-btn:hover,
 #next-btn:hover {
-    background-color: #003d7a;
+    background-color: #311b92;
 }
 
 #prev-btn.hidden,
